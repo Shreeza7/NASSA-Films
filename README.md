@@ -1,14 +1,62 @@
-# NASSA-Films
-NASSA-Films is a project designed with the primary goal of simplifying the movie-watching experience for enthusiasts. Our platform not only provides personalized recommendations and exclusive offers but also fosters a vibrant community for movie lovers. We've seamlessly integrated with cinema halls, keeping users informed about showtimes and events.
+# 🎬 NASSA-Films – A Full-Stack Theatre Booking Experience
+NASSA-Films is a comprehensive movie theatre booking system designed to simplify and enhance the movie-watching experience for users. From personalized recommendations and exclusive offers to real-time seat selection and admin-level theatre management — NASSA-Films brings everything under one digital roof.
 
-Technology Stack
+Think of it as your own version of AMC’s booking experience built by developers, for movie lovers.
 
-Frontend - React:
-We've utilized React to craft a dynamic and user-friendly frontend. React's component-based design and efficient rendering contribute to a seamless user experience. The use of React enables us to create interactive and responsive interfaces, ensuring a delightful movie exploration journey for our users.
+## ✨ Features
+✅ User Authentication – Secure JWT-based login & registration
 
-Backend - .NET:
-For the backend infrastructure, we opted for .NET due to its robust and scalable capabilities. .NET is an ideal choice for handling complex data management and server-side logic efficiently. This ensures a stable and high-performance backend system that can handle the demands of our growing community of movie enthusiasts.
+✅ Browse & Book Movies – Explore listings, view showtimes, and reserve your favorite seats
 
-Seamless Integration:
-The integration of React for the frontend and .NET for the backend forms the backbone of our application. This integration provides a perfect balance between a responsive user interface and a powerful backend infrastructure. Users can expect a smooth and reliable performance while exploring personalized recommendations, accessing exclusive offers, and engaging with the vibrant community we've built.
+✅ Admin Dashboard – Manage movies, theaters, and showtimes
 
+✅ Payment Integration – Simulated checkout system for ticket purchasing
+
+✅ Search & Filters – Filter by genre, language, and time for easy discovery
+
+✅ Personalized Experience – Recommendations and offers tailored for users
+
+✅ Cinematic Community – Platform designed to connect movie lovers
+
+## 🛠 Tech Stack
+🔹 Frontend
+- React.js (TypeScript)
+
+- Mantine UI & Bootstrap
+
+- Axios for API communication
+
+🔹 Backend
+- .NET 7 (ASP.NET Core REST API)
+
+- Entity Framework Core
+
+- Microsoft SQL Server
+
+## 🚀 Getting Started
+1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Shreeza7/NASSA-Films
+cd Nasa-Films
+```
+
+2️⃣ Setup Backend
+- Update the database connection string in appsettings.json
+- Apply database migrations:
+
+```bash
+dotnet ef database update
+```
+- Run the backend:
+```bash
+dotnet run
+```
+The API will be available at: http://localhost:5000
+
+3️⃣ Setup Frontend
+```bash
+cd frontend
+yarn install
+yarn start
+```
+The app will run at: http://localhost:3000
